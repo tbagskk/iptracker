@@ -1,0 +1,162 @@
+*, ::before, ::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+html
+{
+	font-family: Rubik;
+	width: 100%;
+	
+
+}
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	background-color: #CECECE;
+}
+
+.header
+{
+	
+	height: 300px;
+	width: 100vw;
+	background-image: url(pattern-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	
+	z-index: 1;
+}
+#map
+{
+	
+	height: 200vw;
+	width: 100%;
+	z-index: 1;
+	margin-top: -400px;
+}
+.search
+{
+	
+	height: 350px;
+	width: 90vw;
+	position: relative;
+	top: -100px;
+	border-radius: 15px;
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+
+
+
+	
+	
+
+	left: 1000;
+	z-index: 2;
+}
+.box1
+{
+	
+	height: 70px;
+	width: 80vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 30px;
+
+
+}
+.ligne
+{
+	height: 80px;
+	background: #CECECE;
+	width: 1px;
+	display: none;
+}
+.ip
+{
+	font-weight: 500;
+	font-size: 1.3em;
+	
+
+}
+.ip_title
+{
+	font-weight: 500;
+	font-size: 1em;
+	color: grey;
+	
+	margin-bottom: 10px;
+}
+.search_bar
+{
+	
+	height: 160px;
+	width: 100vw;
+	margin-bottom: 110px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	
+	
+}
+.input_search
+{
+	height: 55px;
+	width: 60vw;
+	border-radius: 15px 0px 0px 15px;
+	border: none;
+	font-size: 1.1em;
+	padding: 20px;
+}
+.input_search:focus
+{
+	outline: none;
+	
+}
+.input_submit
+{
+	height: 55px;
+	background-color: black;
+	width: 50px;
+	
+	border: none;
+	border-radius: 0px 15px 15px 0px;
+	
+	color: white;
+	font-size: 1em;
+	font-weight: 700;
+	
+}
+.search_form
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.title_search
+{
+	font-size: 1.8em;
+	font-weight: 700;
+	color: white;
+	
+}

@@ -1,0 +1,162 @@
+*, ::before, ::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+html
+{
+	font-family: Rubik;
+	width: 100%;
+	height: 100%;
+	
+
+}
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #CECECE;
+
+}
+
+.header
+{
+	
+	height: 300px;
+	width: 100%;
+	background-image: url(pattern-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	
+	z-index: 1;
+}
+#map
+{
+	
+	height: 35vw;
+	width: 100%;
+	z-index: 1;
+	margin-top: -200px;
+}
+.search
+{
+	
+	height: 180px;
+	width: 1000px;
+	position: relative;
+	top: -100px;
+	border-radius: 15px;
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+
+
+	
+	
+
+	left: 1000;
+	z-index: 2;
+}
+.box1
+{
+	
+	height: 150px;
+	width: 240px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	padding: 30px;
+	text-overflow: clip;
+	
+
+}
+.ligne
+{
+	height: 80px;
+	background: #CECECE;
+	width: 1px;
+}
+.ip
+{
+	font-weight: 700;
+	font-size: 1.5em;
+	overflow: hidden;
+	
+	max-height: 100px;
+	max-width: 200px;
+}
+.ip_title
+{
+	font-weight: 500;
+	font-size: 1em;
+	color: grey;
+	margin-top: -20px;
+	margin-bottom: 10px;
+}
+.search_bar
+{
+	
+	height: 160px;
+	width: 600px;
+	margin-bottom: 110px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	
+}
+.input_search
+{
+	height: 55px;
+	width: 450px;
+	border-radius: 15px 0px 0px 15px;
+	border: none;
+	font-size: 1.2em;
+	padding: 20px;
+}
+.input_search:focus
+{
+	outline: none;
+	
+}
+.input_submit
+{
+	height: 55px;
+	background-color: black;
+	width: 50px;
+	
+	border: none;
+	border-radius: 0px 15px 15px 0px;
+	
+	color: white;
+	font-size: 1em;
+	font-weight: 700;
+	
+}
+.search_form
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.title_search
+{
+	font-size: 2em;
+	font-weight: 700;
+	color: white;
+	
+}
