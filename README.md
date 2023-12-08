@@ -20,3 +20,7 @@ Enter IP Address: Users can input an IP address in the site's interface.
 Data Processing: The site uses the Geo Ipify API to retrieve information related to the provided IP address.
 
 Map Display: The obtained geographical coordinates are then utilized to showcase the location on the map using the Mapbox API.
+
+</br>
+
+![al-text](ip.PNG)
