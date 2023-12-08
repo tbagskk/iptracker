@@ -4,16 +4,11 @@
 	padding: 0;
 }
 
-
-
-
 html
 {
 	font-family: Rubik;
 	width: 100%;
 	height: 100%;
-	
-
 }
 body
 {
@@ -22,7 +17,6 @@ body
 	align-items: center;
 	flex-direction: column;
 	background-color: #CECECE;
-
 }
 
 .header
@@ -37,13 +31,10 @@ body
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
-	
 	z-index: 1;
 }
 #map
 {
-	
 	height: 35vw;
 	width: 100%;
 	z-index: 1;
@@ -51,7 +42,6 @@ body
 }
 .search
 {
-	
 	height: 180px;
 	width: 1000px;
 	position: relative;
@@ -62,17 +52,11 @@ body
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px;
-
-
-	
-	
-
 	left: 1000;
 	z-index: 2;
 }
 .box1
 {
-	
 	height: 150px;
 	width: 240px;
 	display: flex;
@@ -81,8 +65,6 @@ body
 	flex-direction: column;
 	padding: 30px;
 	text-overflow: clip;
-	
-
 }
 .ligne
 {
@@ -95,7 +77,6 @@ body
 	font-weight: 700;
 	font-size: 1.5em;
 	overflow: hidden;
-	
 	max-height: 100px;
 	max-width: 200px;
 }
@@ -109,7 +90,6 @@ body
 }
 .search_bar
 {
-	
 	height: 160px;
 	width: 600px;
 	margin-bottom: 110px;
@@ -117,7 +97,6 @@ body
 	justify-content: space-around;
 	align-items: center;
 	flex-direction: column;
-	
 }
 .input_search
 {
@@ -131,17 +110,14 @@ body
 .input_search:focus
 {
 	outline: none;
-	
 }
 .input_submit
 {
 	height: 55px;
 	background-color: black;
 	width: 50px;
-	
 	border: none;
 	border-radius: 0px 15px 15px 0px;
-	
 	color: white;
 	font-size: 1em;
 	font-weight: 700;
@@ -158,5 +134,4 @@ body
 	font-size: 2em;
 	font-weight: 700;
 	color: white;
-	
 }
